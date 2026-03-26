@@ -1,0 +1,39 @@
+# Agent Progress Log
+
+This file tracks the progress of features implemented by the autonomous coding agent.
+
+## Format
+Each entry should include:
+- Date/time
+- Feature completed
+- Any notable decisions or challenges
+- Next recommended steps
+
+---
+
+## Server Actions for Notes - 2026-03-26
+
+Created `lib/actions/notes.ts` with all four server actions:
+- `createNoteAction()` — creates note with defaults, redirects if unauthenticated
+- `updateNoteAction(noteId, data)` — validates with Zod, enforces ownership, revalidates path
+- `deleteNoteAction(noteId)` — deletes note, revalidates dashboard
+- `toggleShareAction(noteId, isPublic)` — calls setNotePublicSharing, returns publicSlug
+
+All actions use `getSession()` for auth and enforce user ownership via repository functions.
+
+Next recommended steps: CreateNoteButton component, dashboard loading/error states, E2E tests.
+
+---
+
+## Initial Setup - 2026-01-20
+
+Project initialized with:
+- Next.js 16.1.1 with App Router
+- TypeScript with strict mode
+- TailwindCSS v4 with dark mode
+- Bun runtime
+- Dependencies: TipTap, better-auth, zod, vitest 
+
+Ready to begin feature implementation.
+
+---
