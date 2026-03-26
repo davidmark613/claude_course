@@ -1,0 +1,218 @@
+[     225ms] [ERROR] ./app/components/Header.tsx:4:20
+Ecmascript file had an error
+  2 | import dynamic from 'next/dynamic';
+  3 |
+> 4 | const HeaderAuth = dynamic(() => import('./HeaderAuth'), { ssr: false });
+    |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function Header() {
+  7 |   return (
+
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+
+Import trace:
+  Server Component:
+    ./app/components/Header.tsx
+    ./app/layout.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[    1022ms] [ERROR] ./app/components/Header.tsx:4:20
+Ecmascript file had an error
+  2 | import dynamic from 'next/dynamic';
+  3 |
+> 4 | const HeaderAuth = dynamic(() => import('./HeaderAuth'), { ssr: false });
+    |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function Header() {
+  7 |   return (
+
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+
+Import trace:
+  Server Component:
+    ./app/components/Header.tsx
+    ./app/layout.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[    1384ms] [ERROR] ./app/components/Header.tsx:4:20
+Ecmascript file had an error
+  2 | import dynamic from 'next/dynamic';
+  3 |
+> 4 | const HeaderAuth = dynamic(() => import('./HeaderAuth'), { ssr: false });
+    |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function Header() {
+  7 |   return (
+
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+
+Import trace:
+  Server Component:
+    ./app/components/Header.tsx
+    ./app/layout.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[    1846ms] [ERROR] ./app/components/Header.tsx:4:20
+Ecmascript file had an error
+  2 | import dynamic from 'next/dynamic';
+  3 |
+> 4 | const HeaderAuth = dynamic(() => import('./HeaderAuth'), { ssr: false });
+    |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function Header() {
+  7 |   return (
+
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+
+Import trace:
+  Server Component:
+    ./app/components/Header.tsx
+    ./app/layout.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[    2249ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[    4631ms] Error: ./app/components/Header.tsx:4:20
+Ecmascript file had an error
+  2 | import dynamic from 'next/dynamic';
+  3 |
+> 4 | const HeaderAuth = dynamic(() => import('./HeaderAuth'), { ssr: false });
+    |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function Header() {
+  7 |   return (
+
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+
+Import trace:
+  Server Component:
+    ./app/components/Header.tsx
+    ./app/layout.tsx
+
+
+    at getCompilationErrors (file:///Users/davidmark/Documents/claude_code/starting-project/node_modules/next/dist/server/dev/hot-reloader-turbopack.js:1008:63)
+    at getCompilationError (file:///Users/davidmark/Documents/claude_code/starting-project/node_modules/next/dist/server/lib/dev-bundler-service.js:44:55)
+    at getCompilationError (file:///Users/davidmark/Documents/claude_code/starting-project/node_modules/next/dist/server/dev/next-dev-server.js:706:42)
+    at findPageComponents (file:///Users/davidmark/Documents/claude_code/starting-project/node_modules/next/dist/server/dev/next-dev-server.js:676:43)
+    at async renderErrorToResponseImpl (file:///Users/davidmark/Documents/claude_code/starting-project/node_modules/next/dist/server/base-server.js:1713:37)
+    at processTicksAndRejections (unknown:7:39)
+[    4767ms] [ERROR] ./app/components/Header.tsx:4:20
+Ecmascript file had an error
+  2 | import dynamic from 'next/dynamic';
+  3 |
+> 4 | const HeaderAuth = dynamic(() => import('./HeaderAuth'), { ssr: false });
+    |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function Header() {
+  7 |   return (
+
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+
+Import trace:
+  Server Component:
+    ./app/components/Header.tsx
+    ./app/layout.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_b3fb3b5f._.js:1920
+[    4767ms] [ERROR] ./app/components/Header.tsx:4:20
+Ecmascript file had an error
+  2 | import dynamic from 'next/dynamic';
+  3 |
+> 4 | const HeaderAuth = dynamic(() => import('./HeaderAuth'), { ssr: false });
+    |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function Header() {
+  7 |   return (
+
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+
+Import trace:
+  Server Component:
+    ./app/components/Header.tsx
+    ./app/layout.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_b3fb3b5f._.js:1920
+[    4767ms] [ERROR] ./app/components/Header.tsx:4:20
+Ecmascript file had an error
+  2 | import dynamic from 'next/dynamic';
+  3 |
+> 4 | const HeaderAuth = dynamic(() => import('./HeaderAuth'), { ssr: false });
+    |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function Header() {
+  7 |   return (
+
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+
+Import trace:
+  Server Component:
+    ./app/components/Header.tsx
+    ./app/layout.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_b3fb3b5f._.js:1920
+[    4767ms] [ERROR] ./app/components/Header.tsx:4:20
+Ecmascript file had an error
+  2 | import dynamic from 'next/dynamic';
+  3 |
+> 4 | const HeaderAuth = dynamic(() => import('./HeaderAuth'), { ssr: false });
+    |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function Header() {
+  7 |   return (
+
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+
+Import trace:
+  Server Component:
+    ./app/components/Header.tsx
+    ./app/layout.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_b3fb3b5f._.js:1920
+[    4767ms] [ERROR] ./app/components/Header.tsx:4:20
+Ecmascript file had an error
+  2 | import dynamic from 'next/dynamic';
+  3 |
+> 4 | const HeaderAuth = dynamic(() => import('./HeaderAuth'), { ssr: false });
+    |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function Header() {
+  7 |   return (
+
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+
+Import trace:
+  Server Component:
+    ./app/components/Header.tsx
+    ./app/layout.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_b3fb3b5f._.js:1920
+[    4767ms] [ERROR] ./app/components/Header.tsx:4:20
+Ecmascript file had an error
+  2 | import dynamic from 'next/dynamic';
+  3 |
+> 4 | const HeaderAuth = dynamic(() => import('./HeaderAuth'), { ssr: false });
+    |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function Header() {
+  7 |   return (
+
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+
+Import trace:
+  Server Component:
+    ./app/components/Header.tsx
+    ./app/layout.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_b3fb3b5f._.js:1920
+[    4768ms] [ERROR] ./app/components/Header.tsx:4:20
+Ecmascript file had an error
+  2 | import dynamic from 'next/dynamic';
+  3 |
+> 4 | const HeaderAuth = dynamic(() => import('./HeaderAuth'), { ssr: false });
+    |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function Header() {
+  7 |   return (
+
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+
+Import trace:
+  Server Component:
+    ./app/components/Header.tsx
+    ./app/layout.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_b3fb3b5f._.js:1920
+[    5055ms] [ERROR] ./app/components/Header.tsx:4:20
+Ecmascript file had an error
+  2 | import dynamic from 'next/dynamic';
+  3 |
+> 4 | const HeaderAuth = dynamic(() => import('./HeaderAuth'), { ssr: false });
+    |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function Header() {
+  7 |   return (
+
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+
+Import trace:
+  Server Component:
+    ./app/components/Header.tsx
+    ./app/layout.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_b3fb3b5f._.js:1920
+[   21112ms] [WARNING] [Fast Refresh] performing full reload because your application had an unrecoverable error @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_b3fb3b5f._.js:1206
