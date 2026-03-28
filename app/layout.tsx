@@ -36,7 +36,7 @@ export default async function RootLayout({
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <ThemeProvider>
           <Header />
-          {children}
+          <main className='mx-auto w-full max-w-4xl px-4'>{children}</main>
         </ThemeProvider>
       </body>
     </html>
