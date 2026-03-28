@@ -18,7 +18,7 @@ export default async function PublicNotePage({ params }: Props) {
   const isOwner = user?.id === note.userId;
 
   return (
-    <main className='mx-auto max-w-3xl px-4 py-12'>
+    <main className='py-12'>
       <div className='mb-6 flex items-start justify-between gap-4'>
         <h1 className='text-3xl font-semibold'>{note.title}</h1>
         {isOwner && (

@@ -11,7 +11,7 @@ export default async function Dashboard() {
   const notes = getNotesByUser(user.id);
 
   return (
-    <main className='mx-auto max-w-4xl px-4 py-8'>
+    <main className='py-8'>
       <div className='flex items-center justify-between mb-6'>
         <h1 className='text-2xl font-semibold'>My Notes</h1>
         <CreateNoteButton />

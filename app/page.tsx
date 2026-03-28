@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export default function Home() {
   return (
-    <main className='mx-auto max-w-2xl px-4 py-24 text-center'>
+    <main className='py-24 text-center'>
       <h1 className='mb-4 text-4xl font-semibold tracking-tight'>Your notes, beautifully simple</h1>
       <p className='mb-8 text-gray-500 dark:text-gray-400'>
         Write, organize, and share rich-text notes — all in one place.
