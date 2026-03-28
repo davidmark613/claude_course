@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import dynamic from 'next/dynamic';
+import ThemeToggle from './ThemeToggle';
 
 const HeaderAuth = dynamic(() => import('./HeaderAuth'), { ssr: false });
 
@@ -15,7 +16,10 @@ export default function Header() {
         >
           NextNotes
         </Link>
-        <HeaderAuth />
+        <div className='flex items-center gap-2'>
+          <ThemeToggle />
+          <HeaderAuth />
+        </div>
       </div>
     </header>
   );
